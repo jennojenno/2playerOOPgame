@@ -65,9 +65,28 @@
                                 </constraints>
                                 <state key="normal" image="player1attackbtn"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Player 1's turn to attack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuO-U1-elM">
+                                <rect key="frame" x="101" y="535" width="369" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ATTACK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgY-Bc-qRH">
+                                <rect key="frame" x="424" y="44" width="91" height="21"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ATTACK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4BL-h7-0Ie">
+                                <rect key="frame" x="91" y="44" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="WuO-U1-elM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1hi-ef-X3s"/>
                             <constraint firstItem="oRJ-O1-sQh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="1mn-8x-cL2"/>
                             <constraint firstItem="CcB-qA-2n7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="2yN-d7-mma"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Yvq-qW-JDq" secondAttribute="bottom" id="4dg-df-Xry"/>
@@ -75,15 +94,20 @@
                             <constraint firstAttribute="trailing" secondItem="KLW-Fd-vQJ" secondAttribute="trailing" constant="25" id="7Ne-sH-JFu"/>
                             <constraint firstItem="KLW-Fd-vQJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="25" id="9wz-p8-UwB"/>
                             <constraint firstItem="Yvq-qW-JDq" firstAttribute="top" secondItem="a7O-qs-xGL" secondAttribute="bottom" id="CdT-C0-2V3"/>
+                            <constraint firstItem="4BL-h7-0Ie" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="81" id="H6Y-u2-FMg"/>
                             <constraint firstItem="6D4-aV-dbd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Hr4-0U-j5X"/>
                             <constraint firstItem="oRJ-O1-sQh" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-40" id="Lon-yK-jgV"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6D4-aV-dbd" secondAttribute="bottom" id="NNK-cA-28g"/>
                             <constraint firstAttribute="trailingMargin" secondItem="a7O-qs-xGL" secondAttribute="trailing" constant="53" id="QBT-do-6w6"/>
                             <constraint firstItem="Yvq-qW-JDq" firstAttribute="top" secondItem="CcB-qA-2n7" secondAttribute="bottom" id="RsX-0G-7eU"/>
                             <constraint firstItem="0tf-M0-XNx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="VPd-c3-bfS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WuO-U1-elM" secondAttribute="bottom" constant="25" id="WcV-rZ-0bA"/>
+                            <constraint firstItem="cgY-Bc-qRH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="daw-8g-Ust"/>
                             <constraint firstItem="6D4-aV-dbd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nNh-uB-Bzs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cgY-Bc-qRH" secondAttribute="trailing" constant="81" id="olb-XI-eXF"/>
                             <constraint firstItem="0tf-M0-XNx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="opS-DX-oX1"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KLW-Fd-vQJ" secondAttribute="bottom" constant="13" id="tWa-o0-tx9"/>
+                            <constraint firstItem="4BL-h7-0Ie" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="uXr-5e-xSa"/>
                         </constraints>
                     </view>
                 </viewController>
