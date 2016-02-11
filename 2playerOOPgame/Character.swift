@@ -9,7 +9,7 @@
 import Foundation
 
 class Character {
-    private var name: String
+    private var _name: String
     private var _hp = 100
     private var _attackPower = 10
 
@@ -26,8 +26,14 @@ class Character {
         }
     }
     
+    var name: String {
+        get {
+            return _name
+        }
+    }
+    
     init(name: String, hp: Int, attackPower: Int) {
-        self.name = name
+        self._name = name
         self._hp = hp
         self._attackPower = attackPower
     }

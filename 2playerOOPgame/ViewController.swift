@@ -16,13 +16,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var player2: UIImageView!
     @IBOutlet weak var textHolder: UILabel!
     
+//    var p1 = Character!()
+//    var p2 = Character!()
+    
     @IBOutlet weak var player1: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        textHolder.text = "Hello world"
+        let p1 = Character(name: "Player 1", hp: 200, attackPower: 40)
+        
+        textHolder.text = "\(p1.name)'s turn (\(p1.hp) HP), attack \(p1.attackPower) HP"
     }
     
     
