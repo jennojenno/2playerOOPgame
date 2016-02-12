@@ -37,5 +37,6 @@ class Character {
         self._hp = hp
         self._attackPower = attackPower
     }
+
     
 }
